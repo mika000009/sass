@@ -1,0 +1,21 @@
+.make {
+  text-align: center;
+  padding-top: 38px;
+}
+.make__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 25px;
+     -moz-column-gap: 25px;
+          column-gap: 25px;
+  row-gap: 28px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.make__card {
+  width: calc(16.66666% - 20.83333px);
+}
+.make__card-img {
+  width: 100%;
+}
